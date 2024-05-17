@@ -18,7 +18,7 @@ function nerdify(text) {
   let result = "";
   for (let char of text) {
     result += replacements[char] || char;
-    console.log("Characters:", replacements);
+    console.log(`Processing character: ${char}, Replacement: ${replacement}`);
   }
 
   return result;
